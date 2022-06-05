@@ -147,12 +147,21 @@ body.active-modal {
 @media (max-width: 768px) {
   .Modal,
   .overlay {
-    overflow: scroll;
+    overflow: scroll!important;
   }
+  .Modal,
+.overlay {
 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed!important;
+  z-index: 9999!important;
+}
 
   .Modal .modal-img {
-    margin: 50px 0 50px 0;
+    margin: 20px 0 20px 0;
   }
   .modal-content {
     flex-direction: column;
