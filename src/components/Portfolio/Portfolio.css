@@ -1,37 +1,43 @@
-.portfolio{
+.portfolio {
   position: relative;
 }
-.portfolio .box{
+
+.portfolio .box {
   border-radius: 10px;
   position: relative;
 }
-.portfolio .box:hover{
+
+.portfolio .box:hover {
   background: none;
   color: black;
   transform: translateY(0);
 }
-.portfolio .img{
+
+.portfolio .img {
   height: 300px;
   overflow: hidden;
   transition: 0.5s;
 }
-.portfolio img{
-transition: 0.5s;
-border-radius: 10px;
+
+.portfolio img {
+  transition: 0.5s;
+  border-radius: 10px;
 }
+
 /*animation*/
 .portfolio .box .img:hover img {
   transform: scale(1.2);
 }
 
-.portfolio .category span{
+.portfolio .category span {
   color: var(--primary);
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 500;
 }
+
 /*hidden opacity*/
-.portfolio .arrow{
+.portfolio .arrow {
   position: absolute;
   right: 30px;
   bottom: 11px;
@@ -40,6 +46,7 @@ border-radius: 10px;
   opacity: 0;
   transition: 0.5s;
 }
+
 /*show opacity*/
 .portfolio .title:hover .arrow {
   opacity: 1;
@@ -54,11 +61,13 @@ border-radius: 10px;
 .portfolio .box:hover h2 {
   color: var(--primary);
 }
+
 .portfolio .box:hover {
   color: black;
 }
-.portfolio label i{
-    margin-right: 10px;
+
+.portfolio label i {
+  margin-right: 10px;
 }
 
 
@@ -94,6 +103,7 @@ body.active-modal {
 .overlay {
   background-color: #ecf0f3;
 }
+
 .modal-content {
   position: absolute;
   top: 12%;
@@ -113,22 +123,39 @@ body.active-modal {
 .modal-text {
   padding: 0 100px 0 50px;
 }
+
 .modal-text h1 {
   margin: 20px 0 20px 0;
   font-size: 30px;
 }
+
 .modal-text p {
   font-size: 17px;
   margin-bottom: 20px;
   line-height: 25px;
 }
+
 .modal-text button {
-  margin-right: 20px;
-  color: var(--primary);
+  color: var(--primary)!important;
 }
-.modal-text button i {
+.modal-text button:hover {
+ color: white!important;
+}
+
+.modal-text a {
+  margin-right: 20px;
+  color: var(--primary)!important;
+}
+
+
+.modal-text a:hover{
+  color: white!important;
+}
+
+.modal-text a i {
   margin-left: 10px;
 }
+
 .modal-text button.close-modal {
   position: absolute;
   top: 10px;
@@ -140,34 +167,46 @@ body.active-modal {
   padding: 0 0;
   font-size: 20px;
 }
+
 .modal-text button.close-modal i {
   margin: 0;
 }
+
+
 /*------------popup--------*/
 @media (max-width: 768px) {
+
   .Modal,
   .overlay {
-    overflow: scroll!important;
+    overflow: scroll !important;
   }
-  .Modal,
-.overlay {
 
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: fixed!important;
-  z-index: 9999!important;
-}
+  .Modal,
+  .overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed !important;
+    z-index: 9999 !important;
+  }
 
   .Modal .modal-img {
     margin: 20px 0 20px 0;
   }
+
   .modal-content {
     flex-direction: column;
   }
+
   .Modal .right,
   .Modal .left {
     padding: 0;
   }
+
+  .modal-text a {
+    margin-right: 10px;
+    color: var(--primary);
+  }
+ 
 }

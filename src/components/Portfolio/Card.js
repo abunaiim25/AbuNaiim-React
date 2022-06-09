@@ -48,26 +48,37 @@ const Card = (props) => {
           <div className='modal-content '>
 
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-12">
                 <div className='modal-img left'>
                   <img style={{ width: "100%" }} src={props.image} alt='' />
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-12">
                 <div className='modal-text right'>
                   <span>Featured - Design</span>
                   <h1>{props.title}</h1>
                   <p>{props.desc}</p>
-                 
-                  <div className='button f_flex mtop'>
-                    <button className='btn_shadow'>
-                      LIKE THIS <i class='far fa-thumbs-up'></i>
-                    </button>
+                  <br />
 
-                    <button className='btn_shadow'>
-                      VIEW PROJECT<i class='fas fa-chevron-right'></i>
-                    </button>
+                  <div style={{ color:" var(--primary)" }} className='h3 mb-2'>Tools and Languages:</div>
+                  <h6>{props.platform}</h6>
+                  
+
+                  <div className='button f_flex mtop grid_protfolio'>
+               
+                    <a className='btn_shadow'>
+                      LIKE <i class='far fa-thumbs-up'></i>
+                    </a>
+
+                    <a className='btn_shadow'>
+                      GITHUB <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a className='btn_shadow'>
+                      VIEW <i class='fas fa-chevron-right'></i>
+                    </a>
+                   
                   </div>
 
                   <button className='close-modal btn_shadow' onClick={toggleModal}>

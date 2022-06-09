@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Home.css";
-import { Typewriter } from 'react-simple-typewriter' //Typewriter
+//import { Typewriter } from 'react-simple-typewriter' //Typewriter
 import hero from "../pic/hero2.jpeg";
+
 
 
 
@@ -17,7 +18,9 @@ const Home = () => {
                                 <h3 >Welcome To My Website</h3>
 
                                 <h1>Hi, I'm <span>Abu Naiim</span></h1>
-                                <h2>a <span>
+                                <h6> <span>Web Designer & Developer and Programmer</span>
+                                    {/*
+                                    <span>
                                     <Typewriter
                                         words={["Software Engineer", "Programmer."]}
                                         loop
@@ -26,15 +29,19 @@ const Home = () => {
                                         typeSpeed={70}
                                         deleteSpeed={60}
                                         delaySpeed={1500} />
-                                </span></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolor ad a accusantium! In ducimus facere sint vel repellendus illum tempore vero aliquid, nobis cupiditate iste eaque corporis accusantium sunt fuga provident distinctio, dolores unde libero? Recusandae nobis quia sapiente! Minus voluptate reprehenderit quam molestiae illo ducimus aperiam distinctio maxime voluptas quod. Dolor praesentium tempora rerum voluptatum doloribus aspernatur reprehenderit ad laborum numquam! Delectus est dignissimos a vel, tempora dolore ipsam. Quasi, cum. Provident dolorum esse, temporibus illum officia est nulla, praesentium dolor corporis autem quisquam maxime recusandae doloremque, hic vero soluta quae repellat placeat earum aperiam ipsum. Aut, cumque.</p>
+                                </span>
+                                 */}</h6>
+
+
+                                <p>I am Abu Naiim. I was born in a middle-class Muslim family. Now, I studying at Daffodil International University in the department of B.Sc in Computer Science & Engineering. I have passed Alim from Darunnazat Siddiqua Kamil Madrasah and Dakhil & JDC from Hafez Abdur Razzak Jamia Islamia Madrasah. I would like to be a  Software Engineer. Currently,  I am in Karanigong, Dhaka. My home village is Rarirchor, Chandpur. My hobbies are fishing, playing cricket, watching cricket and football.
+                                </p>
                             </div>
                         </div>
 
                         <div className="col-lg-4 col-12 ">
                             <div className='right '>
                                 <div className="card center">
-                                    <img  src={hero} alt=''/>
+                                    <img src={hero} alt='' />
                                 </div>
                             </div>
                         </div>
@@ -63,7 +70,7 @@ const Home = () => {
                         </div>
 
                         <div className='col-lg-7  col-12'>
-                            <h4 style={{ marginBottom:"7px" }}>BEST SKILL ON</h4>
+                            <h4 style={{ marginBottom: "7px" }}>WEB SKILL ON</h4>
                             <button className='btn_shadow'>
                                 <i class="fa-brands fa-html5"></i>
                             </button>

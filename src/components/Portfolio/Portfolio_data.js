@@ -6,7 +6,8 @@ const Portfolio_data = [
     totalLike: "750",
     title: "This is AgroBd, It's created for business and ecommerce.",
     image: "./image/agrobd.png",
-    desc: "Web Application Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+    desc: "At present farmers and retailers do not get the right price for their produce. With this problem in mind, we want to create a social media medium where buyers and sellers can buy and sell independently. Farmers will have their own profiles. Each seller will show how many ratings there are with the profile. If the farmers post a sale of their products, the buyer or retailer will be able to purchase the product in two persons. After buying and selling, they will be able to express their opinions through each other's ratings.",
+    platform: "HTML, CSS, Bootstrap, JavaScript, PHP Laravel, MySQL.",
   },
   {
     id: 2,
@@ -14,7 +15,8 @@ const Portfolio_data = [
     totalLike: "750",
     title: "This is ecommerce website, users all things buy this sire.",
     image: "./image/ecommerce.png",
-    desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+    desc: " E-commerce Website. A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location.",
+    platform: "HTML, CSS, Bootstrap, JavaScript, PHP Laravel, MySQL.",
   },
   {
     id: 3,
@@ -22,7 +24,8 @@ const Portfolio_data = [
     totalLike: "600",
     title: "The is Portfolio website, My all information here in this website. ",
     image: "./image/portfolio.png",
-    desc: "WebSite Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+    desc: "WebSite Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
+    platform: "HTML, CSS, Bootstrap, React.js, PHP Laravel, MySQL.",
   },
   {
     id: 4,
@@ -30,7 +33,8 @@ const Portfolio_data = [
     totalLike: "600",
     title: "This is TV and News Paper app, I think you enjoy through this app.",
     image: "./image/tvapp.jpg",
-    desc: "Mobile Application Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+    desc: "Mobile Application Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
+    platform: "Java and Firebase.",
   },
   {
     id: 5,
@@ -38,7 +42,8 @@ const Portfolio_data = [
     totalLike: "600",
     title: "The is BMI Calculator, Through this calculator you can make sure your health. ",
     image: "./image/bmi.png",
-    desc: "WebSite Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+    desc: "WebSite Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
+    platform: "HTML, CSS, Bootstrap, JavaScript.",
   },
   {
     id: 6,
@@ -46,7 +51,8 @@ const Portfolio_data = [
     totalLike: "750",
     title: "This is Simple Calculator, I think you enjoy through this calculator.",
     image: "./image/calculator.PNG",
-    desc: "WebSite Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+    desc: "WebSite Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
+    platform: "HTML, CSS, Bootstrap, JavaScript.",
   },
 ]
 export default Portfolio_data

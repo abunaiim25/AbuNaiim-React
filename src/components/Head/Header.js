@@ -13,28 +13,29 @@ const Header = () => {
 
     return (
         <>
+
             <header className='header'>
 
-                <nav className="navbar navbar-expand-lg navbar-light  fixed-top ">
+                <nav className="navbar navbar-expand-lg navbar-light  fixed-top " id='navbar'>
                     <div className="container-fluid">
                         <a className="navbar-brand  logo" href="#">
-                        <img  style={{ width: "40px"  }}  src={logo} alt='' />
-                        <strong>  Naiim</strong>
+                            <img style={{ width: "40px" }} src={logo} alt='' />
+                            <strong>  Naiim</strong>
                         </a>
-                       
+
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
 
                         <div className="collapse navbar-collapse   navlink " id="navbarSupportedContent">
                             <ul className="navbar-nav   ml-auto link uppercase">
-                                
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#home">Home</a>
+
+                                <li className="nav-item ">
+                                    <a className="nav-link" aria-current="page" href="#home">Home</a>
                                 </li>
 
                                 <li className="nav-item">
-                                    <a className="nav-link " aria-current="page" href="#features">Features</a>
+                                    <a className="nav-link" aria-current="page" href="#features">Features</a>
                                 </li>
 
                                 <li className="nav-item">
@@ -48,7 +49,7 @@ const Header = () => {
                                 <li className="nav-item">
                                     <a className="nav-link " aria-current="page" href="#blog">Blog</a>
                                 </li>
-                                
+
                                 <li className="nav-item">
                                     <a className="nav-link " aria-current="page" href="#contact">Contact</a>
                                 </li>
@@ -58,14 +59,13 @@ const Header = () => {
                                 </li>
 
                             </ul>
-                           
+
                         </div>
                     </div>
                 </nav>
 
             </header>
 
-          
         </>
     )
 }

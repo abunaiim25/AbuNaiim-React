@@ -1,9 +1,4 @@
-.contact .left {
-    width: 36%;
-  }
-  .contact .right {
-    width: 60%;
-  }
+
   .contact .box {
     padding: 30px;
   }
@@ -21,35 +16,13 @@
     margin-right: 20px;
   }
   
-
-
-  .contact .right {
-    padding: 35px;
-  }
   .contact .input span {
     font-size: 13px;
   }
   .contact input {
     margin-top: 10px;
   }
-  .contact .right button {
+
+form .right-btn{
     width: 100%;
-    color: #ff014f;
   }
-  .contact .right button:hover {
-    color: white;
-  }
-  .contact .right button i {
-    margin-left: 10px;
-  }
-  @media (max-width: 768px) {
-    .contact .d_flex {
-      flex-direction: column;
-    }
-    .contact .left,
-    .contact .right {
-      width: 100%;
-      margin-top: 50px;
-    }
-  }
-  

@@ -22,6 +22,7 @@ const Portfolio = () => {
                 totalLike={value.totalLike}
                 title={value.title}
                 desc={value.desc}
+                platform={value.platform}
               />
             })}
 
