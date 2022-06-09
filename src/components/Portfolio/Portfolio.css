@@ -181,13 +181,13 @@ body.active-modal {
     background: #ffffff;
   }
   
-  h1{
+  .h1_portfolio{
     font-size: 22px!important;
   }
 
   .Modal,
   .overlay {
-    top: 0;
+    top: 0!important;
     left: 0;
     right: 0;
     bottom: 0;

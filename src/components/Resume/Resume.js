@@ -6,21 +6,17 @@ import "./Resume.css";
 const Resume = () => {
     return (
         <>
-            <section className='resume' id='resume'>
-                <div className="container top">
+            <section className='resume top' id='resume'>
+                <div className="container ">
                     <div className="heading text-center">
                         <h4 className='uppercase'>Education and Experience</h4>
                         <h1>My Resume</h1>
                     </div>
 
 
-                    <div className="content-section mtop row">
-                        <div className="col-lg-6 col-12">
-                            <div className="heading">
-                                <h4>2015-2023</h4>
-                                <h1 style={{ fontSize:"35px" }}>Education Qualification</h1>
-                            </div>
-
+                    <div className="content-section  row">
+                        <div className="col-lg-6 col-12 mt-3">
+                     
                             <div className="content">
                                 {ResumeApi.map((val, id) => {
                                     if (val.category === "education") {
@@ -30,11 +26,7 @@ const Resume = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-12">
-                            <div className="heading">
-                                <h4>2021-2022</h4>
-                                <h1  style={{ fontSize:"35px" }}>Software Development</h1>
-                            </div>
+                        <div className="col-lg-6 col-12 mt-3">
 
                             <div className="content">
                                 {ResumeApi.map((val, id) => {

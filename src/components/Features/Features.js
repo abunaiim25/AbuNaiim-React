@@ -9,7 +9,7 @@ const Features = () => {
             <section className='features top' id="features">
 
                 <div className="container">
-                    <div className='heading'>
+                    <div className='heading text-center'>
                         <h4>Features</h4>
                         <h1>What I Do</h1>
                     </div>

@@ -109,7 +109,7 @@ const Card = (props) => {
               <div className="col-lg-6 col-12">
                 <div className='modal-text right'>
                   <span>Featured - Design</span>
-                  <h1>{props.title}</h1>
+                  <h1 className='h1_portfolio'>{props.title}</h1>
                   <p>{props.desc}</p>
                   <br />
 
