@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 import "./Contact.css";
 import contact from "../pic/contact.jpg";
 import emailjs from '@emailjs/browser';//npm install @emailjs/browser --save
-import ReactDOM from 'react-dom';
 import MessengerCustomerChat from 'react-messenger-customer-chat';//npm install react-messenger-customer-chat
 
 
