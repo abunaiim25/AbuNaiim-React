@@ -178,7 +178,11 @@ body.active-modal {
   .Modal,
   .overlay {
     overflow: scroll !important;
-    margin-top: -80px;
+    background: #ffffff;
+  }
+  
+  h1{
+    font-size: 22px!important;
   }
 
   .Modal,

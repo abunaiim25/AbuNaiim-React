@@ -67,7 +67,7 @@ const Contact = () => {
       <section className="contact" id="contact">
         <div className="container top">
           <div className="heading text-center">
-            <h4>CONTACT</h4>
+            <h4 className='uppercase'>You can contact always with me</h4>
             <h1>Contact With Me</h1>
           </div>
 

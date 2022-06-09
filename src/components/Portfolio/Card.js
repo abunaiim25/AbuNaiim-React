@@ -113,7 +113,7 @@ const Card = (props) => {
                   <p>{props.desc}</p>
                   <br />
 
-                  <div style={{ color: " var(--primary)" }} className='h3 mb-2'>Tools and Languages:</div>
+                  <div style={{ color: " var(--primary)" }} className='h4 mb-2'>Tools and Languages:</div>
                   <h6>{props.platform}</h6>
 
 
