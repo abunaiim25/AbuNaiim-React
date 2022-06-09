@@ -30,7 +30,7 @@ const Header = () => {
                         <div className="collapse navbar-collapse   navlink " id="navbarSupportedContent">
                             <ul className="navbar-nav   ml-auto link uppercase">
 
-                                <li className="nav-item ">
+                                <li className="nav-item">
                                     <a className="nav-link" aria-current="page" href="#home">Home</a>
                                 </li>
 

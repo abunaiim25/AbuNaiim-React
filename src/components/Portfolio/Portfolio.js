@@ -23,6 +23,8 @@ const Portfolio = () => {
                 title={value.title}
                 desc={value.desc}
                 platform={value.platform}
+                github={value.github}
+                view={value.view}
               />
             })}
 

@@ -1,9 +1,11 @@
 import React, { useState, useRef } from 'react';
 import "./Contact.css";
-import contact from "../pic/contact.jpg";
+import contact from "../pic/diu.jpg";
 import emailjs from '@emailjs/browser';//npm install @emailjs/browser --save
 import MessengerCustomerChat from 'react-messenger-customer-chat';//npm install react-messenger-customer-chat
-
+//message
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
@@ -40,7 +42,7 @@ const Contact = () => {
         `
     )
 
-    //EmailJs
+    //EmailJs -> naiimabu25@gmail.com  //emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
     emailjs.sendForm('service_0chfr5c',
       'template_qn5nmfn',
       form.current,
@@ -53,6 +55,11 @@ const Contact = () => {
       });
   };
 
+
+    //message
+    const notify = () =>{
+      toast.success("Successfull Email Send", { position: toast.POSITION.TOP_RIGHT, autoClose: 5000})
+    }
 
 
   return (
@@ -78,14 +85,14 @@ const Contact = () => {
                   <span>FIND WITH ME</span>
 
                   <div className='button f_flex'>
-                    <a href='' className='btn_shadow mx-2'>
-                      <i className='fab fa-facebook-f'></i>
+                    <a href="https://www.facebook.com/profile.php?id=100010098828694" target="_blank" className='btn_shadow mx-2'>
+                      <i class='fab fa-facebook-f'></i>
                     </a>
-                    <a href='' className='btn_shadow mx-2'>
-                      <i className='fab fa-instagram'></i>
+                    <a href="https://www.linkedin.com/in/abu-naiim-516949210/" target="_blank" className='btn_shadow mx-2'>
+                      <i class='fab fa-linkedin-in'></i>
                     </a>
-                    <a href='' className='btn_shadow mx-2'>
-                      <i className='fab fa-twitter'></i>
+                    <a href="https://www.instagram.com/abu_naiim/" target="_blank" className='btn_shadow mx-2'>
+                      <i class="fa-brands fa-instagram"></i>
                     </a>
                   </div>
 
@@ -121,9 +128,10 @@ const Contact = () => {
                     <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent}></textarea>
                   </div>
 
-                  <button className='btn_shadow right-btn'>
+                  <button onClick={notify} className='btn_shadow right-btn'>
                     SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
                   </button>
+                  <ToastContainer />
                 </form>
 
               </div>
@@ -134,8 +142,9 @@ const Contact = () => {
       </section>
 
       <MessengerCustomerChat
-        pageId="107276032014225"
-        appId="390414809715969"
+        pageId="107276032014225" // fb page id
+        appId="390414809715969" //https://developers.facebook.com/apps/?show_reminder=true
+        //advance massaging on FB page: https://abu-naiim.netlify.app/
       />,
     </>
   )

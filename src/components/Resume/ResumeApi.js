@@ -10,7 +10,7 @@ const ResumeApi = [
     id: 2,
     category: "experience",
     year: "Web Design and Development (2021 - 2022) ",
-    title: "Software Development",
+    title: "Full Stack Web Development",
     desc: "I am a Web Designer & Developer and Programmer. I have worked on many projects. I create web application or website using HTML, CSS, Bootstrap, Javascript, PHP Laravel, React.js. Sometimes I do android development work using Java and Firebase (database). I'm interested if anyone wants to talk to me about web development. If anyone wants to create a website, let me know and I will make you a website.",
   },
 

@@ -33,7 +33,7 @@ const Resume = () => {
                         <div className="col-lg-6 col-12">
                             <div className="heading">
                                 <h4>2021-2022</h4>
-                                <h1  style={{ fontSize:"35px" }}>Working Sector</h1>
+                                <h1  style={{ fontSize:"35px" }}>Software Development</h1>
                             </div>
 
                             <div className="content">

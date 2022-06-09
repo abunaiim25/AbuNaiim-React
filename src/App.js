@@ -10,19 +10,22 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 
+
+
 const App = () => {
+
+
   return (
     <>
-    
-    <Header />
-    <Home />
-    <Features />
-    <Portfolio />
-    <Resume />
-    <Blog />
-    <Contact />
-    <Footer />
-    
+      <Header />
+      <Home />
+      <Features />
+      <Portfolio />
+      <Resume />
+      <Blog />
+      <Contact />
+      <Footer />
+
     </>
   )
 }

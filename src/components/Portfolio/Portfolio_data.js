@@ -8,6 +8,8 @@ const Portfolio_data = [
     image: "./image/agrobd.png",
     desc: "At present farmers and retailers do not get the right price for their produce. With this problem in mind, we want to create a social media medium where buyers and sellers can buy and sell independently. Farmers will have their own profiles. Each seller will show how many ratings there are with the profile. If the farmers post a sale of their products, the buyer or retailer will be able to purchase the product in two persons. After buying and selling, they will be able to express their opinions through each other's ratings.",
     platform: "HTML, CSS, Bootstrap, JavaScript, PHP Laravel, MySQL.",
+    github: "https://github.com/abunaiim25/AgroBd-Laravel-Web",
+    view: "",
   },
   {
     id: 2,
@@ -17,6 +19,8 @@ const Portfolio_data = [
     image: "./image/ecommerce.png",
     desc: " E-commerce Website. A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location.",
     platform: "HTML, CSS, Bootstrap, JavaScript, PHP Laravel, MySQL.",
+    github: "https://github.com/abunaiim25/Online-Marketing-Laravel-Web",
+    view: "",
   },
   {
     id: 3,
@@ -26,6 +30,8 @@ const Portfolio_data = [
     image: "./image/portfolio.png",
     desc: "WebSite Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
     platform: "HTML, CSS, Bootstrap, React.js, PHP Laravel, MySQL.",
+    github: "https://github.com/abunaiim25/AbuNaiim-React",
+    view: "https://abu-naiim.netlify.app/",
   },
   {
     id: 4,
@@ -35,6 +41,8 @@ const Portfolio_data = [
     image: "./image/tvapp.jpg",
     desc: "Mobile Application Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
     platform: "Java and Firebase.",
+    github: "https://github.com/abunaiim25/TV-NewsPaper-Android-App",
+    view: "",
   },
   {
     id: 5,
@@ -44,6 +52,8 @@ const Portfolio_data = [
     image: "./image/bmi.png",
     desc: "WebSite Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
     platform: "HTML, CSS, Bootstrap, JavaScript.",
+    github: "https://github.com/abunaiim25/Health-Maintain-Web",
+    view: "https://health-maintain.netlify.app/",
   },
   {
     id: 6,
@@ -53,6 +63,8 @@ const Portfolio_data = [
     image: "./image/calculator.PNG",
     desc: "WebSite Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
     platform: "HTML, CSS, Bootstrap, JavaScript.",
+    github: "https://github.com/abunaiim25/Calculator-Website",
+    view: "https://naiim-calculator.netlify.app/",
   },
 ]
 export default Portfolio_data

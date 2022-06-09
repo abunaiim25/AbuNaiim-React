@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <>
             <section className="hero" id="home">
-                <div className="container  top">
+                <div className="container  mtop">
                     <div className="row">
 
                         <div className="col-lg-8 col-12">
@@ -18,7 +18,7 @@ const Home = () => {
                                 <h3 >Welcome To My Website</h3>
 
                                 <h1>Hi, I'm <span>Abu Naiim</span></h1>
-                                <h6> <span>Web Designer & Developer and Programmer</span>
+                                <h6> <span>Full Stack Web Developer & Programmer</span>
                                     {/*
                                     <span>
                                     <Typewriter

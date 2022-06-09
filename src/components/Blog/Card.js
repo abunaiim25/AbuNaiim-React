@@ -1,13 +1,59 @@
-import React, { useState } from 'react'
+import React, { useState,useRef } from 'react';
+import emailjs from '@emailjs/browser';//npm install @emailjs/browser --save
+//message
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Card = (props) => {
 
+  //Modal
   const [modal, setModal] = useState(false)
-
   const toggleModal = () => {
     setModal(!modal)
   }
 
+
+  //form
+  const [data, setData] = useState({
+    fullname: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const InputEvent = (event) => {
+    const name = event.target.name;
+    setData((oldData) => {
+      return { ...oldData, [name]: event.target.value }
+    })
+  }
+
+  const form = useRef();
+  const sendEmail = (event) => {
+    event.preventDefault();
+    setData({
+      fullname: "",
+      email: "",
+      subject: "",
+      message: "",
+    });//after submit empty
+    
+    //EmailJs -> naiimabu25@gmail.com  //emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_0chfr5c',
+      'template_qn5nmfn',
+      form.current,
+      '1i09rkvHXb8cPCEd6')
+      .then((result) => {
+        console.log(result.text);
+        console.log("message successfull")
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+  //message
+  const notify = () =>{
+    toast.success("Successfull Comment Send", { position: toast.POSITION.TOP_RIGHT, autoClose: 5000})
+  }
 
   return (
     <>
@@ -67,27 +113,30 @@ const Card = (props) => {
                 <i class='fas fa-times'></i>
               </button>
 
+
+
+
               <div className="content mtop">
                 <h1>Leave a Reply</h1>
-
                
-                  <form action="" className='blog_contact row'>
-
+                  <form ref={form} onSubmit={sendEmail} className='blog_contact row'>
                     <div className="col-lg-6 col-12">
-                        <input type="text" placeholder='Name' />
-                        <input type="text" placeholder='Email' />
-                        <input type="text" placeholder='Website' />
+                        <input type="text" placeholder='Full Name' name='fullname' value={data.fullname} onChange={InputEvent} />
+                        <input type="email" placeholder='Email' name='email' value={data.email} onChange={InputEvent}/>
+                        <input type="text" placeholder='Subject' name='subject' value={data.subject} onChange={InputEvent}/>
                        
                     </div>
 
                     <div className="col-lg-6 col-12">
-                        <textarea name="" placeholder='Comment' cols="30" rows="8"></textarea>
+                        <textarea name="message" placeholder='Comment' cols="30" rows="8"  value={data.message} onChange={InputEvent}></textarea>
                     </div>
-                    <button className="btn_shadow blog-btn ">SUBMIT NOW</button>
+                    <button onClick={notify} className="btn_shadow blog-btn ">SUBMIT NOW</button>
+                    <ToastContainer />
                   </form>
 
                 </div>
               </div>
+
             </div>
           </div>
       )}
