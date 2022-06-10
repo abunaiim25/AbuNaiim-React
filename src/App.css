@@ -60,6 +60,10 @@ p {
   width: 50%;
 }
 
+.justify{
+  text-align: justify;
+}
+
 /*===================flex=========================*/
 .d_flex {
   display: flex;

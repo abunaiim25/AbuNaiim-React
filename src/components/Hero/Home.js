@@ -2,7 +2,14 @@ import React from 'react';
 import "./Home.css";
 //import { Typewriter } from 'react-simple-typewriter' //Typewriter
 import hero from "../pic/hero2.jpeg";
-
+import html from "../pic/html-5.png";
+import css from "../pic/css-3.png";
+import js from "../pic/js.png";
+import react from "../pic/react.png";
+import bootstrap from "../pic/bootstrap.png";
+import php from "../pic/php.png";
+import mysql from "../pic/mysql.png";
+import laravel from "../pic/laravel.png";
 
 
 
@@ -72,28 +79,28 @@ const Home = () => {
                         <div className='col-lg-7  col-12'>
                             <h4 style={{ marginBottom: "7px" }}>WEB SKILL ON</h4>
                             <button className='btn_shadow'>
-                                <i class="fa-brands fa-html5"></i>
+                                <img src={html} alt="" />
                             </button>
                             <button className='btn_shadow'>
-                                <i class="fa-brands fa-css3"></i>
+                            <img src={css} alt="" />
                             </button>
                             <button className='btn_shadow'>
-                                <i class="fa-brands fa-js"></i>
+                            <img src={js} alt="" />
                             </button>
                             <button className='btn_shadow'>
-                                <i class="fa-solid fa-b"></i>
+                            <img src={bootstrap} alt="" />
                             </button>
                             <button className='btn_shadow'>
-                                <i class="fa-brands fa-react"></i>
+                            <img src={react} alt="" />
                             </button>
                             <button className='btn_shadow'>
-                                <i class="fa-brands fa-php"></i>
+                            <img src={php} alt="" />
                             </button>
                             <button className='btn_shadow'>
-                                <i class="fa-brands fa-laravel"></i>
+                            <img src={laravel} alt="" />
                             </button>
                             <button className='btn_shadow'>
-                                <i class="fa-solid fa-database"></i>
+                            <img src={mysql} alt="" />
                             </button>
                         </div>
                     </div>

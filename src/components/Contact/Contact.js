@@ -129,7 +129,7 @@ const Contact = () => {
                   </div>
 
                   <button onClick={notify} className='btn_shadow right-btn'>
-                    SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
+                    SEND Email <i className='fa fa-long-arrow-right'></i>
                   </button>
                   <ToastContainer />
                 </form>
