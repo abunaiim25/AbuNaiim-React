@@ -1,6 +1,6 @@
 # My Portfolio
 
-![portfolio](https://user-images.githubusercontent.com/75266387/215328005-4bb2ab28-18e3-4f1d-a8f4-1f6c91506e06.PNG)
+![portfolio](https://user-images.githubusercontent.com/75266387/215328738-24e7ca19-bf71-470e-a7cc-befe3412b960.png)
 
 ## Website Link:
 https://abu-naiim.netlify.app/
