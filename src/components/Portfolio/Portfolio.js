@@ -7,11 +7,11 @@ const Portfolio = () => {
 
   return (
     <>
-      <section className='portfolio top' id='portfolio'>
+      <section className='portfolio top' id='Projects'>
         <div className="container">
           <div className="heading text-center">
-            <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-            <h1>My Portfolio</h1>
+            <h4>VISIT MY PORTFOLIO AND HERE MY PROJECTS</h4>
+            <h1>My Projects</h1>
           </div>
 
           <div className="content row">

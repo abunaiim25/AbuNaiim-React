@@ -114,9 +114,8 @@ const Card = (props) => {
               </button>
 
 
-
-
-              <div className="content mtop">
+{/**
+ *  <div className="content mtop">
                 <h1>Leave a Reply</h1>
                
                   <form ref={form} onSubmit={sendEmail} className='blog_contact row'>
@@ -135,6 +134,11 @@ const Card = (props) => {
                   </form>
 
                 </div>
+ * 
+ */}
+
+             
+
               </div>
 
             </div>

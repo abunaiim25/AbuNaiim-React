@@ -9,11 +9,11 @@ import BlogApi from "./BlogApi";
 const Blog = () => {
   return (
     <>
-      <section className='portfolio blog' id='blog'>
+      <section className='portfolio blog' id='Story'>
         <div className="container">
           <div className="heading text-center">
-            <h4 className='uppercase'>VISIT MY BLOG AND KEEP YOUR FEEDBACK</h4>
-            <h1>My Blog</h1>
+            <h4 className='uppercase'>VISIT MY STORY AND READ STORY</h4>
+            <h1>Story</h1>
           </div>
 
           <div className="content row">

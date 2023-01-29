@@ -1,4 +1,4 @@
-import React, { useState,useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';//npm install @emailjs/browser --save
 //message
 import { ToastContainer, toast } from 'react-toastify';
@@ -39,7 +39,7 @@ const Card = (props) => {
       subject: "",
       message: "",
     });//after submit empty
-    
+
     //EmailJs -> naiimabu25@gmail.com //emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
     emailjs.sendForm('service_0chfr5c',
       'template_qn5nmfn',
@@ -53,8 +53,8 @@ const Card = (props) => {
       });
   };
   //message
-  const notify = () =>{
-    toast.success("Successfull Comment Send", { position: toast.POSITION.TOP_RIGHT, autoClose: 5000})
+  const notify = () => {
+    toast.success("Successfull Comment Send", { position: toast.POSITION.TOP_RIGHT, autoClose: 5000 })
   }
 
 
@@ -67,6 +67,8 @@ const Card = (props) => {
           <div className="img">
             <img style={{ width: "100%", height: "200px" }} src={props.image} alt="" onClick={toggleModal} />
           </div>
+
+
 
           <div className="category d_flex ">
             <span onClick={toggleModal} className="uppercase mt-1">
@@ -97,46 +99,41 @@ const Card = (props) => {
         <div className='Modal'>
 
           <div onClick={toggleModal} className='overlay'></div>
-          <div className='modal-content '>
+          <div className='modal-content m-0'>
 
-            <div className="row">
-              <div className="col-lg-6 col-12">
-                <div className='modal-img left'>
-                  <img style={{ width: "100%" }} src={props.image} alt='' />
-                </div>
+            <div style={{ display: "flex", justifyContent : 'space-between'}}>
+              <h5 className='h1_portfolio mx-2 p-3'>Project - {props.title}: </h5>
+              <button className='close-modal btn_shadow' style={{ height:"60px", width:'60px',  borderRadius: '50px', }} onClick={toggleModal}>  <i class='fas fa-times'></i></button>
+            </div>
+
+            <div className="col-lg-12 col-12">
+              <div className='modal-img left'>
+                <img style={{ width: "100%" }} src={props.image} alt='' />
               </div>
+            </div>
 
-              <div className="col-lg-6 col-12">
-                <div className='modal-text right'>
-                  <span>Featured - Design</span>
-                  <h1 className='h1_portfolio'>{props.title}</h1>
-                  <p>{props.desc}</p>
-                  <br />
+            <div className="col-lg-12 col-12">
+              <div className='modal-text right'>
+                <h1 className='h1_portfolio'>{props.title}</h1>
+                <p>{props.desc}</p>
+                <br />
 
-                  <div style={{ color: " var(--primary)" }} className='h4 mb-2'>Tools and Languages:</div>
-                  <h6>{props.platform}</h6>
+                <div style={{ color: " var(--primary)" }} className='h4 mb-2'>Tools and Languages:</div>
+                <h6>{props.platform}</h6>
 
+                <div className='button f_flex mtop grid_protfolio'>
+                  <a href={props.github} target="_blank" className='btn_shadow'>
+                    GITHUB <i class="fa-brands fa-github"></i>
+                  </a>
 
-                  <div className='button f_flex mtop grid_protfolio'>
-
-                    <a href={props.github} target="_blank" className='btn_shadow'>
-                      GITHUB <i class="fa-brands fa-github"></i>
-                    </a>
-
-                    <a href={props.view} className='btn_shadow' target="_blank" >
-                      VIEW <i class="fa-solid fa-eye"></i>
-                    </a>
-
-                  </div>
-
-                  <button className='close-modal btn_shadow' onClick={toggleModal}>
-                    <i class='fas fa-times'></i>
-                  </button>
-
+                  <a href={props.view} className='btn_shadow' target="_blank" >
+                    VIEW <i class="fa-solid fa-eye"></i>
+                  </a>
                 </div>
+
               </div>
-
-
+            </div>
+            {/**
               <div className="content top">
                 <h1>Leave a Reply</h1>
 
@@ -155,12 +152,12 @@ const Card = (props) => {
                   <ToastContainer />
                 </form>
               </div>
-
+      */}
 
           </div>
 
         </div>
-        </div>
+       
   )
 }
     </>

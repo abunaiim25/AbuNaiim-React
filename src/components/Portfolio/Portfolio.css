@@ -105,7 +105,7 @@ body.active-modal {
 
 .modal-content {
   position: absolute;
-  top: 12%;
+  top: 2%;
   left: 8%;
   line-height: 1.4;
   background: #f0f3f5;
@@ -171,6 +171,11 @@ body.active-modal {
   margin: 0;
 }
 
+.modal-img img{
+  border-style: solid;
+  border-width: 2px 1px; 
+  border-color: #cbcbcb;
+}
 
 /*------------popup--------*/
 @media (max-width: 768px) {
@@ -185,24 +190,12 @@ body.active-modal {
     font-size: 22px!important;
   }
 
-  .Modal,
-  .overlay {
-    top: 0!important;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: fixed !important;
-    z-index: 9999 !important;
-  }
-
-  .Modal .modal-img {
-    margin: 10px 0 10px 0;
-  }
 
   .modal-content {
-    flex-direction: column;
+    padding: 20px;
   }
 
+  
   .Modal .right,
   .Modal .left {
     padding: 0;

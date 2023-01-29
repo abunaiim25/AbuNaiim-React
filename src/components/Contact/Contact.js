@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import "./Contact.css";
-import contact from "../pic/diu.jpg";
+import contact from "../pic/n3.jpeg";
 import emailjs from '@emailjs/browser';//npm install @emailjs/browser --save
 import MessengerCustomerChat from 'react-messenger-customer-chat';//npm install react-messenger-customer-chat
 //message
@@ -64,7 +64,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="contact" id="contact">
+      <section className="contact" id="Contact">
         <div className="container top">
           <div className="heading text-center">
             <h4 className='uppercase'>You can contact always with me</h4>

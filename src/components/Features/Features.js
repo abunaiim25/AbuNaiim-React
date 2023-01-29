@@ -1,3 +1,4 @@
+/**================================MY JOB================================ */
 import React from 'react';
 import Card from './Card';
 import "./Features.css";
@@ -6,11 +7,11 @@ import data from "./FeaturesApi";
 const Features = () => {
     return (
         <>
-            <section className='features top' id="features">
+            <section className='features top' id="Job">
 
                 <div className="container">
                     <div className='heading text-center'>
-                        <h4>Features</h4>
+                        <h4>MY JOB</h4>
                         <h1>What I Do</h1>
                     </div>
 
