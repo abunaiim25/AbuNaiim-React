@@ -28,13 +28,15 @@ useEffect(() => {
         <>
             <header className='header'>
 
+            <div id="myDIV">
                 <nav className="navbar navbar-expand-lg navbar-light  fixed-top " id='navbar'>
+              
                     <div className="container-fluid">
                         <a className="navbar-brand  logo" href="#">
                             <img style={{ width: "40px" }} src={logo} alt='' />
                             <strong></strong>
                         </a>
-                      <div id="myDIV">
+                      
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -43,8 +45,7 @@ useEffect(() => {
                         <div className="collapse navbar-collapse   navlink " id="navbarSupportedContent">
                        
                             <ul className="navbar-nav   ml-auto link uppercase">
-
-                           
+                                
                                 <li className="nav-item active">
                                     <a className="nav-link" aria-current="page" href="#Home">Home</a>
                                 </li>
@@ -72,9 +73,8 @@ useEffect(() => {
                             </ul>
                             </div>
                         </div>
-                    </div>
                 </nav>
-
+                </div>
             </header>
 
         </>
