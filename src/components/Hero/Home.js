@@ -99,7 +99,7 @@ window.onload = function() {
                                 </span>
                                </h6>
 
-                                <p>I am Abu Naiim. I am Full-Stack Web Developer. I am working on web & mobile application development more than 2 years. Usually I do web development using Laravel & React.js.
+                                <p>I am Abu Naiim. I am Full-Stack Web Developer. I am working on web & mobile application development more than 1 year. Usually I do web development using Laravel & React.js.
                                      I am always ready to learn any new technology and also looking for new opportunities to learn and progress. I want to build my career as a software engineer in the software and web related sector. 
                                      I would like to my knowledge, creativity and innovative thinking in this sector.
                                       Now, I studying at Daffodil International University in the department of B.Sc in Computer Science & Engineering. 
