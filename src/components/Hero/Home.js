@@ -92,10 +92,12 @@ window.onload = function() {
                                 <h3 >Welcome To My Website</h3>
 
                                 <h1>Hi, It's me <span>Abu Naiim </span></h1>
-                                <h6>I'm a <span>
+                                <h6>Full-Stack Web Developer<span>
+                                   {/** 
                                  <a href="" class="typewrite" data-period="2000" data-type='[ "Full-Stack Web Developer.", "Software Developer.", "Programmer." ]'>
                                   <span class="wrap"></span>
                                  </a>
+                                 */}
                                 </span>
                                </h6>
 
