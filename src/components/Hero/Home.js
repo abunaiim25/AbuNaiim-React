@@ -135,7 +135,7 @@ window.onload = function() {
                                 <a href="https://www.linkedin.com/in/abu-naiim-516949210/" target="_blank" className='btn_shadow'>
                                     <i class='fab fa-linkedin-in'></i>
                                 </a>
-                                <a href="https://drive.google.com/file/d/15ivUWiwZY1DjkDOllUWeOCS-6IwpVpbZ/view" target="_blank" className='btn_shadow'>
+                                <a href="https://drive.google.com/file/d/17NYS-QnXETOXXTRslBhDyGyd7lyv345V/view" target="_blank" className='btn_shadow'>
                                 <i class="fa-solid fa-file"></i> <b>CV</b> 
                                 </a>
                                 <a href="https://www.facebook.com/profile.php?id=100010098828694" target="_blank" className='btn_shadow'>
