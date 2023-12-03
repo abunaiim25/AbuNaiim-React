@@ -91,7 +91,7 @@ const Contact = () => {
                     <a href="https://www.linkedin.com/in/abu-naiim-516949210/" target="_blank" className='btn_shadow mx-2'>
                       <i class='fab fa-linkedin-in'></i>
                     </a>
-                    <a href="https://www.instagram.com/abu_naiim/" target="_blank" className='btn_shadow mx-2'>
+                    <a href="https://www.instagram.com/alone_naiim/" target="_blank" className='btn_shadow mx-2'>
                       <i class="fa-brands fa-instagram"></i>
                     </a>
                   </div>

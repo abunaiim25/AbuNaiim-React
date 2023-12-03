@@ -14,6 +14,8 @@ import ajax from "../pic/ajax.png";
 import n1 from "../pic/n1.jpeg";
 import mysql from "../pic/mysql.png";
 import laravel from "../pic/laravel.png";
+import json from "../pic/json.png";
+import django from "../pic/django.png";
 import { useEffect } from 'react';
 
 
@@ -130,14 +132,14 @@ window.onload = function() {
                                 <a href="https://github.com/abunaiim25" target="_blank" className='btn_shadow'>
                                     <i class="fa-brands fa-github"></i>
                                 </a>
-                                <a href="https://www.facebook.com/profile.php?id=100010098828694" target="_blank" className='btn_shadow'>
-                                    <i class='fab fa-facebook-f'></i>
-                                </a>
                                 <a href="https://www.linkedin.com/in/abu-naiim-516949210/" target="_blank" className='btn_shadow'>
                                     <i class='fab fa-linkedin-in'></i>
                                 </a>
-                                <a href="https://www.instagram.com/abu_naiim/" target="_blank" className='btn_shadow'>
-                                    <i class="fa-brands fa-instagram"></i>
+                                <a href="https://drive.google.com/file/d/15ivUWiwZY1DjkDOllUWeOCS-6IwpVpbZ/view" target="_blank" className='btn_shadow'>
+                                <i class="fa-solid fa-file"></i> <b>CV</b> 
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100010098828694" target="_blank" className='btn_shadow'>
+                                    <i class='fab fa-facebook-f'></i>
                                 </a>
                             </div>
                         </div>
@@ -182,6 +184,14 @@ window.onload = function() {
                             <img src={ajax} alt="" />
                             </button>
 
+                            <button className='btn_shadow'>
+                            <img src={json} alt="" />
+                            </button>
+
+                            <button className='btn_shadow'>
+                            <img src={django} alt="" />
+                            </button>
+                            
                         </div>
                     </div>
                 </div>
